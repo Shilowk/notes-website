@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="#" class="navLogo">My App</a>
+        <ul class="navbar">
+            <li><a href="/dashboard">Dashboard</a></li>
+            <li><a href="/notes">Notes</a></li>
+        </ul>
+    </nav>
+    <section class="Dashboard">
+        <h1>Dashboard</h1>
+        <div class="container">
+            <h2>Welcome, <%= user.username %>!</h2>
+            <div class="buttons">
+                <a href="/notes"><button>notes</button></a>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <br><br>
+            <p class="logout"><a href="/logout">Log Out</a></p>
+        </div>
+
+    </section>
+</body>
+</html>
