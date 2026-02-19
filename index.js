@@ -8,6 +8,8 @@ const bcrypt = require('bcryptjs');
 var flash = require('connect-flash');
 const db = require('./db');
 const { addNote, deleteNote, editNote } = require('./models/notes');
+const path = require("path");
+app.use(express.static(path.join(__dirname, "public")));
 
 
 
