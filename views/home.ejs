@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheet.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Home | NotePlan</title>
 </head>
 <body>
-    
-    <section class="home">
-        <h1>Welcome to My App</h1>
-        <h2>get started </h2>
-        <div class="box">
+    <nav>
+        <a href="#" class="navLogo">NotePlan</a>
+        <a href="/register">Register</a></li>
+        <a href="/login">Login</a></li>
+
+    </nav>
+    <section>
+        <h1 class="title">Welcome to <span class="T_end">NotePlan</span></h1>
+        <p>Currently still in development but you can create notes and in the future timetable</p>
+        <h2>Get Started</h2>
+        <div class="card">
             <p>If you don't have an account, you can create one to start taking notes.</p> 
-            <p><a href="/register">Create an Account</a></p>
+            <a href="/register" class="btn">Create</a>
             <p>If you already have an account, log in to access your notes.</p>
-            <p><a href="/login">Log In</a></p>
-            
+            <a href="/login" class="btn">Login</a>
         </div>
+
     </section>
-
-
+    <footer>
+        &#169;Shiloh Mbuka
+    </footer>
 
 </body>
 </html>
